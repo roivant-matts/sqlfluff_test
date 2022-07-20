@@ -1,0 +1,6 @@
+[sqlfluff]
+dialect = bigquery
+
+[sqlfluff:templater:jinja:context]
+staging_prefix=staging_prefix
+bucket_table_name=buckets_table_name
